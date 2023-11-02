@@ -1,0 +1,83 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background-color: rgb(40, 115, 255);
+  color: aliceblue;
+  display: flex;
+  justify-content: center;
+}
+
+.bg-image{
+  border: 5px solid white;
+  height: 110vh;
+  width: 60%;
+}
+
+.authors{
+  position: absolute;
+  display: flex;
+  justify-content: space-between;
+  font-family: 'Jura', sans-serif;
+  font-size: 10px;
+  font-weight: 200;
+  top: 5%;
+  gap: 30vh;
+}
+
+.title{
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  top: 15%;
+  font-size: 65px;
+  font-family: 'Jura', sans-serif;
+  font-weight: 700;
+}
+.title .one{
+  font-size: 20px;
+}
+
+.title .two{
+  font-size: 40px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.footer{
+  font-family: 'Oswald', sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  position: absolute;
+  top: 85%;
+  color: rgb(50, 115, 255);
+  -webkit-text-stroke: 1px white;
+  text-align: center;
+}
+
+.film-by{
+  margin-bottom: 5vh;
+}
+
+
+.film-by > span {
+  font-family: 'Oswald', sans-serif;
+  font-weight: 200;
+  font-size: 32px;
+  font-style: none;
+}
+
+.description > span{
+  font-family: 'Oswald', sans-serif;
+  font-weight: 200;
+  font-size: 20px;
+  font-style: none;
+}
+.description{
+  font-size: 12px;
+}
+
+
