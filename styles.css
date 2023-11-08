@@ -11,6 +11,15 @@ body{
   justify-content: center;
 }
 
+a{
+  color: aliceblue;
+  text-decoration: none;
+}
+
+a:hover{
+  text-decoration: underline;
+}
+
 .bg-image{
   border: 5px solid white;
   height: 110vh;
@@ -63,7 +72,7 @@ body{
 }
 
 
-.film-by > span {
+.film-by > a > span   {
   font-family: 'Oswald', sans-serif;
   font-weight: 200;
   font-size: 32px;
